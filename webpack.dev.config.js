@@ -4,7 +4,7 @@ const webpack = require('webpack');
 
 module.exports = merge(common, {
     entry: {
-        hotserver: "webpack-dev-server/client?http://activity-ktv.camera360.com/"
+        hotserver: "webpack-dev-server/client?http://localhost/"
     },
     devtool: 'inline-source-map',
     plugins: [
